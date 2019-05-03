@@ -1,0 +1,9 @@
+
+# HTML to MD
+
+perl -pi -e 's|</?p>||g' *html
+perl -pi -e 's|<h(\d)[^>]*>|("#" x $1)." "|e; s|</h\d>||' *html
+
+# mathajax/tex
+
+perl -0777 -pi -e 's|<script type="math/tex; mode=display">(.*?)</script>|\$$1\$|msg' *html

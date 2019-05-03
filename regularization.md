@@ -40,9 +40,3 @@ Therefore, the model never reaches a weight of 0, regardless of how many steps w
 ![enter image description here](images/regularization-jlQYp.png)
 
 Note that L2-regularization **can** make a weight reach zero if the step size $\eta$ is so high that it reaches zero in a single step. Even if L2-regularization on its own over or undershoots 0, it can still reach a weight of 0 when used together with an objective function that tries to minimize the error of the model with respect to the weights. In that case, finding the best weights of the model is a trade-off between regularizing (having small weights) and minimizing loss (fitting the training data), and the result of that trade-off can be that the best value for some weights are 0.
-
-
-
-
-
-

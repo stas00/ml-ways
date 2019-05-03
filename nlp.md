@@ -58,11 +58,11 @@ MLM     Mask Language Model
 
 Perplexity is often used as an intrinsic evaluation metric for gauging how well a language model can capture the real word distribution conditioned on the context.
 
-A <a href="https://en.wikipedia.org/wiki/Perplexity">perplexity</a> of a discrete proability distribution <script type="math/tex">p</script> is defined as the exponentiation of the entropy:
+A <a href="https://en.wikipedia.org/wiki/Perplexity">perplexity</a> of a discrete proability distribution $p$ is defined as the exponentiation of the entropy:
 
 $2^{H(p)} = 2^{-\sum_x p(x) \log_2 p(x)}$
 
-Given a sentence with <script type="math/tex">N</script> words, <script type="math/tex">s = (w_1, \dots, w_N)</script>, the entropy looks as follows, simply assuming that each word has the same frequency, <script type="math/tex">\frac{1}{N}</script>:
+Given a sentence with $N$ words, $s = (w_1, \dots, w_N)$, the entropy looks as follows, simply assuming that each word has the same frequency, $\frac{1}{N}$:
 
 $H(s) = -\sum_{i=1}^N P(w_i) \log_2  p(w_i)  = -\sum_{i=1}^N \frac{1}{N} \log_2  p(w_i)$
 

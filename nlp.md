@@ -12,9 +12,11 @@ BPE     Byte Pair Encoding
 BiLM    Bidirectional Language Model
 CBOW    Continuous Bag-Of-Words
 CFG     Context-free Grammar
+CL      Computational Linguistics
 CVT     Cross-View Training
 CoLA    Corpus of Linguistic Acceptability
 CoVe    Contextual Word Vectors
+DAG     Directed Acyclic Graph
 DCN     Dynamic Coattention Network
 DCNN    Dynamic Convolutional Neural Network
 DMN     Dynamic Memory Network
@@ -26,22 +28,28 @@ GPT     Generative Pre-training Transformer
 GRU     Gated-Recurrent Network
 GloVe   Global Vectors for Word Representation
 HDP     Hierarchical Dirichlet Process
+IR      Information Retrieval
 LDA     Latent Dirichlet Allocation
 LSA     Latent Semantic Analysis
 LSTM    Long Short-Term Memory
+MAE     Mean Absolute Error
 MLM     Mask Language Model
 MNLI    Multi-Genre NLI
 MRPC    MicRosoft Paraphrase Corpus
+MSE     Mean Squared Error
+MaxEnt  Maximum Entropy (classifier) (softmax)
 NER     Named-Entity Recognition
 NLG     Natural Language Generation
 NLI     Natural Language Inference (Text Entailment)
 NLP     Natural Language Processing
 NLU     Natural Language Understanding
 NMT     Neural Machine Translation
+NiN     Network-in-network (1x1 convconnections)
 PCFG    Probabilistic Context Free Grammar
 POS     Parts-Of-Speech
 QNLI    Question NLI
 RACE    ReAding Comprehension from Examinations
+RMSE    Root Mean Squared Error
 RNN     Recurrent Neural Network
 RNN     Recursive Neural Network
 RNTN    Recursive Neural Tensor Network
@@ -51,14 +59,21 @@ SG      Skip-Gram
 SNLI    Stanford Natural Language Inference
 SOTA    State-Of-The-Art
 SQuAD   Stanford Question Answering Dataset
+SRL     Semantic Role Labeling
 SST     Stanford Sentiment Treebank
 STLR    Slanted Triangular Learning Rates
 SWAG    Situations With Adversarial Generations
-Srl     Semantic Role Labeling
 TDNN    Time-Delayed Neural Network
+TF      Term­Frequency
+TF­IDF  Term­Frequency­Inverse­Document­Frequency
 ULMFiT  Universal Language Model Fine-tuning
 VAE     Variational Autoenconder
 WSD     Word Sense Disambiguation
+ZSL     Zero-Shot Learning
+t-SNE   t-distributed Stochastic Neighbor Embedding
+
+
+
 ```
 
 ## Glossary and Terminology
@@ -73,7 +88,7 @@ Transformer is an architecture for transforming one sequence into another one wi
 
 Constituency Parsing is a way to break a piece of text (e.g. one sentence) into sub-phrases. One of the goals of constituency parsing (also known as "phrase structure parsing") is to identify the constituents in the text which would be useful when extracting information from text. By knowing the constituents after parsing the sentence, it is possible to generate similar sentences that are syntactically correct.
 
-
+Lemmas are root forms of words.
 
 ### Word Embedding Models
 
@@ -118,7 +133,16 @@ $
 A good language model should predict high word probabilities. Therefore, the smaller perplexity the better.
 
 
+
+
+## Libraries
+
+Useful libraries and modules:
+
+- [Annoy](https://github.com/spotify/annoy) (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings to search for points in space that are close to a given query point.
+
+
 # Sources
 
-- http://web.stanford.edu/class/cs224n/
-- https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html#metric-perplexity
+- [Stanford cs224n](http://web.stanford.edu/class/cs224n/)
+- [Generalized Language Models](https://lilianweng.github.io/lil-log/2019/01/31/generalized-language-models.html#metric-perplexity)

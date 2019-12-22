@@ -16,7 +16,9 @@ CL      Computational Linguistics
 CVT     Cross-View Training
 CoLA    Corpus of Linguistic Acceptability
 CoVe    Contextual Word Vectors
+CRF     Conditional Random Field
 DAG     Directed Acyclic Graph
+DAE     Denoising Auto-Encoder
 DCN     Dynamic Coattention Network
 DCNN    Dynamic Convolutional Neural Network
 DMN     Dynamic Memory Network
@@ -27,10 +29,13 @@ GAN     Generative Adversarial Network
 GPT     Generative Pre-training Transformer
 GRU     Gated-Recurrent Network
 GloVe   Global Vectors for Word Representation
+HAL     Hyperspace Analogue to Language
 HDP     Hierarchical Dirichlet Process
+IE      Information Extraction
 IR      Information Retrieval
 LDA     Latent Dirichlet Allocation
-LSA     Latent Semantic Analysis
+LSA     Latent Semantic Analysis (Truncated SVD)
+LSI     Latent Semantic Indexing
 LSTM    Long Short-Term Memory
 MAE     Mean Absolute Error
 MLM     Mask Language Model
@@ -47,6 +52,7 @@ NMT     Neural Machine Translation
 NiN     Network-in-network (1x1 convconnections)
 PCFG    Probabilistic Context Free Grammar
 POS     Parts-Of-Speech
+QRNN    Quasi-Recurrent Neural Networks
 QNLI    Question NLI
 RACE    ReAding Comprehension from Examinations
 RMSE    Root Mean Squared Error
@@ -68,6 +74,7 @@ TF      Term­Frequency
 TF­IDF  Term­Frequency­Inverse­Document­Frequency
 ULMFiT  Universal Language Model Fine-tuning
 VAE     Variational Autoenconder
+VSM     Vector Space Model
 WSD     Word Sense Disambiguation
 ZSL     Zero-Shot Learning
 t-SNE   t-distributed Stochastic Neighbor Embedding
@@ -140,6 +147,21 @@ A good language model should predict high word probabilities. Therefore, the sma
 Useful libraries and modules:
 
 - [Annoy](https://github.com/spotify/annoy) (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings to search for points in space that are close to a given query point.
+
+
+## Good Paper Explanations
+
+- AWD-LSTM: Average-SGD Weight-Dropped LSTM
+   * [What makes the AWD-LSTM great](https://yashuseth.blog/2018/09/12/awd-lstm-explanation-understanding-language-model/)
+
+- ULMFiT: Universal Language Model Fine Tuning
+   * [Understanding the Working of ULMFiT](https://yashuseth.blog/2018/06/17/understanding-universal-language-model-fine-tuning-ulmfit/)
+
+
+## fastai NLP notebooks
+
+- seq2seq:
+   * https://github.com/ohmeow/seq2seq-pytorch-fastai/blob/master/seq2seq-rnn-attn.ipynb
 
 
 # Sources

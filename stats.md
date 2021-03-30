@@ -63,7 +63,7 @@ The **prior probabilities** are also called **class priors**, which describe ”
 ## Classification
 
 1. **Binary classification** or **binomial classification** is classifying instances into one of 2 classes
-2. **Multiclass classification** is classifying instances into one of 3+ classes
+2. **Multi-class classification** is classifying instances into one of 3+ classes
 3. **Multi-label classification** assigns one or more classes to a single instance.
 
 

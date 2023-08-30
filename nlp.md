@@ -4,6 +4,8 @@ Dense notes on NLP.
 
 ## Abbreviations
 
+More extensive lists of abbreviations [1](https://github.com/AgaMiko/machine-learning-acronyms), [2](https://machinelearning.wtf/acronyms/)
+
 ```
 ASGD    Averaged Stochastic Gradient Descent
 AWD-LSTM  ASGD Weight-Dropped LSTM
@@ -142,7 +144,7 @@ https://amitness.com/2020/05/data-augmentation-for-nlp/
 
 Perplexity is often used as an intrinsic evaluation metric for gauging how well a language model can capture the real word distribution conditioned on the context.
 
-A [perplexity](https://en.wikipedia.org/wiki/Perplexity) of a discrete probability distribution $p$ is defined as the exponentiation of the entropy:
+A [perplexity](https://en.wikipedia.org/wiki/Perplexity) of a discrete probability distribution pp is defined as the exponentiation of the entropy:
 
 $2^{H(p)} = 2^{-\sum_x p(x) \log_2 p(x)}$
 

@@ -49,5 +49,5 @@ https://flambe.ai
 High-level batteries-included neural network training library for Pytorch
 
 
-- poutyne](https://github.com/GRAAL-Research/poutyne)
+- [poutyne](https://github.com/GRAAL-Research/poutyne)
 A Keras-like framework and utilities for PyTorch
